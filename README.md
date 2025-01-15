@@ -1,19 +1,19 @@
-#2024
+# 2024
 ---
-##Application Analysis
+## Application Analysis
 
 + decryptPURPLE.py: Decrypt Message with its user_id
 + decryptSessionDB.py: Decrypt Database using AES256_GCM_NoPadding
 + decryptSessionFile.py: Decrypt file with its modernKey and encrypted file path
 
-##Steganography
+## Steganography
 
 + LSBStegano.py: Using LSB steganography, hide and seek message in image
 + steganomaster.py: Enter directory and name of image, then decode steganography that use staganomaster.apk
 
-#2025
+# 2025
 ---
-##CNG
+## CNG
 
 Studying Cryptography Next Generation in Microsoft
 
