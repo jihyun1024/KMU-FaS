@@ -8,7 +8,8 @@
 #define NT_SUCCESS(Status)	(((NTSTATUS)(Status)) >= 0)
 #define STATUS_UNSUCCESSFUL	((NTSTATUS)0xC0000001L)
 
-void test() {
+void test() 
+{
 	NTSTATUS status;
 	BCRYPT_ALG_HANDLE algHandle = NULL;
 
@@ -42,7 +43,8 @@ void test() {
 	}
 }
 
-int main() {
+int main()
+{
 	test();
 	return 0;
 }
