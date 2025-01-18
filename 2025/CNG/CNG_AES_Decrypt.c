@@ -8,7 +8,8 @@
 #define NT_SUCCESS(Status)	(((NTSTATUS)(Status)) >= 0)
 #define STATUS_UNSUCCESSFUL	((NTSTATUS)0xC0000001L)
 
-void Decrypt() {
+void Decrypt() 
+{
 	NTSTATUS status = 0;
 	BYTE Cipher[] = {
 		0xE7, 0x1B, 0xA0, 0x08, 
@@ -97,7 +98,8 @@ void Decrypt() {
 	return;
 }
 
-int main() {
+int main() 
+{
 	Decrypt();
 
 	return 0;
