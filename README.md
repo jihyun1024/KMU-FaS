@@ -36,3 +36,7 @@ Make toy ransomware in C/C++
 ## Steganography
 
 * RetroStegano.py: Seek encoded message in image encoded by Retro Steganography Application
+
+## Application Analysis
+
+* decryptProton.py: Decrypt artifacts in Proton pass using AES256_GCM_NoPadding
