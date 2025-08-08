@@ -32,3 +32,7 @@ Make toy ransomware in C/C++
 * RSA_test.c: Encrypt AES key||IV (48 bytes) and Decrypt them in same code
 * jihyun.c: Among the ransomware's functions, RSA encryption and file extension conversion were implemented
 * ransomware.exe: Full toy ransomware (Although it is for study purposes, this ransomware actually encrypts files. BE CAREFUL!!)
+
+## Steganography
+
+* RetroStegano.py: Seek encoded message in image encoded by Retro Steganography Application
