@@ -1,21 +1,23 @@
-# 2024
+# FaS (Forensic and Security, 2024.02 - 2025.12)
+
+## 2024
 ---
-## Application Analysis
+### Application Analysis
 
 + decryptPURPLE.py: Decrypt Message with its user_id
 + decryptSessionDB.py: Decrypt Database using AES256_GCM_NoPadding
 + decryptSessionFile.py: Decrypt file with its modernKey and encrypted file path
 
-## Steganography
+### Steganography
 
 + LSBStegano.py: Using LSB steganography, hide and seek message in image
 + steganomaster.py: Enter directory and name of image, then decode steganography that use staganomaster.apk
 
 
 
-# 2025
+## 2025
 ---
-## CNG
+### CNG
 
 Studying Cryptography Next Generation in Microsoft
 
@@ -23,7 +25,7 @@ Studying Cryptography Next Generation in Microsoft
 + CNG_RNG.c: Using CNG, Generate random 48 bytes
 * CNG_RSA_Encrypt.c & CNG_RSA_Decrypt.c: With generated N, p, q, e, encrypt and decrypt "FaS 2025 Nice Happy Good~" using RSA 4096
 
-## Ransomware
+### Ransomware
 
 Make toy ransomware in C/C++
 
@@ -33,10 +35,10 @@ Make toy ransomware in C/C++
 * jihyun.c: Among the ransomware's functions, RSA encryption and file extension conversion were implemented
 * ransomware.exe: Full toy ransomware (Although it is for study purposes, this ransomware actually encrypts files. BE CAREFUL!!)
 
-## Steganography
+### Steganography
 
 * RetroStegano.py: Seek encoded message in image encoded by Retro Steganography Application
 
-## Application Analysis
+### Application Analysis
 
 * decryptProton.py: Decrypt artifacts in Proton pass using AES256_GCM_NoPadding
